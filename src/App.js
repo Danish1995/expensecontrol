@@ -44,7 +44,6 @@ const  App=()=> { //here it is arrow fuction another way of using functions
   const filterDataHandler = (expenseDataValue) => {
     setExpenses((prevExpense) => {
       return [expenseDataValue,...prevExpense];
-  
     });
   };
 
@@ -53,7 +52,7 @@ const  App=()=> { //here it is arrow fuction another way of using functions
       <h2>Let's get started!</h2>
       <NewExpense onDataRecive={addExpenseDataHandler}/>
       <Expenses item={expenses}></Expenses>
-      {/* this a custom functional component and this is a way to coment somethin in a div */}
+      { /* this a custom functional component and this is a way to coment somethin in a div */ }
     </div>
   );
 }

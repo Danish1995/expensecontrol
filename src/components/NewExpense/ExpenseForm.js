@@ -77,7 +77,7 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="new-expens__actions">
-        <button type="submit">Add Expense</button>{/*this is not a defauld behaviour to submit a form*/}
+        <button type="submit">Add Expense</button>{/*this is not a default behaviour to submit a form*/}
       </div>
     </form>
   );
