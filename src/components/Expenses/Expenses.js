@@ -13,7 +13,10 @@ function Expenses(props) {
     filterInfoText = "2019 2020 2022";
   } else if (filteredYear === "2022") {
     filterInfoText = "2019 2020 2021";
-  } else {
+  } else if (filteredYear === "2023") {
+    filterInfoText = "2019 2020 2021 2022";
+  } 
+  else {
     filterInfoText = "2019 2021 2022";
   }
 
